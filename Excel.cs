@@ -13,6 +13,7 @@ namespace Rentu_Kalkulator_Aktuarstvo_2021
     class Excel
     {
         string path = "";
+        int i = 0;
         _Application excel = new _Excel.Application();
         Workbook wb;
         Worksheet ws;
